@@ -1,7 +1,6 @@
 close all
 
-
-imPath = '/Users/matt/Desktop/cones/IMG_0011.JPG';
+imPath = '/Users/matt/Dropbox/Projects/Cones';
 im = imread(imPath);
 [BW,maskedRGBImage] = createTreeMask(im);
 
